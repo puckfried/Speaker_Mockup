@@ -1,0 +1,210 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 50vw;
+    margin: 30px auto;
+    background-color: white;
+  
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header .logo {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.header h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.header .logo .icon {
+    width: 30px;
+    margin-right: 20px;
+    
+}
+
+.header nav {
+    width: 40%;
+    font-size: 1.8rem;
+    color: purple;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+
+.header ul li {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header ul li:hover {
+    font-size: 2rem;
+    color: darkslategrey;
+}
+
+
+.main {
+    
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.main h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    margin-right: 20px;
+
+
+}
+
+
+
+.main p {
+    font-size: 2rem;
+}
+
+.main button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+    padding-top: 6px;
+    background-color: black;
+    color: white;
+    margin-left: 70%;
+    width: 175px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+}
+
+.main button img {
+    margin-left: 3px;
+    width: 15px;
+}
+
+.main_2 {
+    width: 95%;
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}    
+
+.main_2 p {
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 150%;
+    text-shadow: 2px 2px 8px black;
+}
+
+.main_2 .card {
+    width: 33%;
+    height: 400px;
+}
+
+.main_2 .card1 {
+
+    margin-right: 5px;
+    background-image: url(./images/white-box.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+    
+
+
+.main_2 .card2 {
+
+    margin-right: 5px;
+    background-image: url(./images/room.jpg);
+    background-size: cover;
+    
+}
+
+.main_2 .card3 {
+
+    background-image: url(./images/black-white.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+footer {
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 860px) {
+    .header ul {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .header .logo {
+       width: 100%;
+    }
+    
+    .main button {
+        margin-top: 20px;
+        margin-left: 0px;
+        }
+
+
+        .main_2 {
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        
+        .main_2 .card {
+            width: 75%;
+            margin: 0 auto;
+        }
+}
