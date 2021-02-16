@@ -152,6 +152,29 @@ body {
     background-position: center;
 }
 
+.card .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 145px;
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgba(255,255,255,0.3);
+    
+}
+
+.card img {
+    background-color: white;
+    border-radius: 50px ;
+    margin: 0 auto;
+    /* margin-top: 135px;
+    margin-left: 40px; */
+    padding: 5px;
+    width: 15px;
+    
+}
 
 footer {
     height: 50px;
