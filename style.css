@@ -136,7 +136,7 @@ body {
 .main_2 .card {
     width: 30%;
     height: 400px;
-    transition: transform 1s, boxshadow 1s,  border-radius 1s;
+    transition: transform 1s, box-shadow 1s,  border-radius 1s;
 }
 
 .main_2 .card:hover {
